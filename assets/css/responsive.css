@@ -1,0 +1,142 @@
+@media (max-width: 991px) {
+	.phn-logo{ width: 40%; }
+	.navbar-brand{ width: 25%; }	
+	.navbar-toggler{ border: none; color: #f9f9f9; font-size: 30px; }
+	.navbar-toggler-icon{ background-size: 70%; }
+	.navbar-toggler:focus { box-shadow: none;}
+	.offcanvas{ background: #F9F9F9; }
+	.nav-link{ color: #0F65B3; font-size: 20px; }
+	.nav-link:hover{ color: #46a037; }
+	.phn{ border: 1px solid #0F65B3; text-align: center; padding: 5% 0; margin:15%;}
+	.phn:hover{ background: #0F65B3; color: #fff; border: 1px solid #0F65B3;}
+
+	.hero-section h1{ font-size: 44px; }
+	.hero-section h6{ margin: 6% 0 8%; }
+	.button{ font-size: 18px; }
+	.hero-section .hero-img{ width: 42%; right: 7%; }
+
+	.service-row{ margin: 15% 0 6%; }
+	.service-section .service-img{ width: 34%; top: 2%; left: 10%; }
+	.service-section h2{ font-size: 42px; }
+	.service-section .title h6{ margin-bottom: 4%;}
+	.service-section .service-table{ height: 388px; padding: 8%; margin-bottom: 8%;}
+	.heading img{ width: 25%; }
+	.heading h3{ padding-right: 7%; }
+
+	.man-img{ width: 47%; bottom: 14%; right: 0%;}
+	.start-title{ margin-bottom: 20px; }
+
+	.industry-tbl{ margin-bottom: 0; }
+	.industry-btn{ margin-top: 50px; }
+
+	.question-section h2{  margin-bottom: 6%; }
+	.question-tbl{ padding-top: 15px; }
+	.accordion-item{ border: none; }
+	.accordion-button:not(.collapsed){ background-color: #fff !important; }
+
+	.f-logo{ width: 80%; }
+	.bg-five{ width: 75%; }
+	.support{ gap: 15px; }
+	.sup-num{  font-size: 16px;  padding: 10px 15px; }
+	.footer-section h2{ font-size: 42px; }
+	.footer-section h6{ font-size: 19px; }
+	.icon-content p{ font-size: 17px; }
+	.icon-content{ margin-bottom: 10px; }
+	.footer-img{ width: 49%; bottom: 48%;  right: 2%; }
+	.phn-hide{ display: block; }
+	.desk-hide{ display: none; }
+
+}
+
+@media (max-width: 768px){
+	.hero-section .hero-img{ width: 50%; right: 5%; top: 16%;}
+	.hero-section h6{ margin: 4% 0 6%; }
+
+	.service-section .service-img{ width: 40%; top: 3%; left: 8%; }
+	.service-section .title h6{ margin-top: 6%;}
+
+	.process-tbl{ margin-bottom: 14%; }
+
+	.bg-five{ width: 80%; }
+	.footer-img{ width: 52%; bottom: 50%;  right: 1%; }
+	.phn-hide{ display: block; }
+	.desk-hide{ display: none; }
+}
+
+
+@media( max-width: 767px){
+	p{ font-size: 16px; }
+	.navbar-brand img{ width: 120%; }
+	.hero-section .hero-img{ position: static; width: 92%;}
+	.hight{ flex-direction: column-reverse; }
+	.hero-section{ text-align: center; }
+}
+
+
+@media (max-width: 425px){
+	h2{ font-size: 40px; }
+	.navbar-brand img{ width: 120%; }
+	.hero-section h1{ font-size: 42px; }
+	.hero-section h6{ margin: 6% 0 8%; font-size: 18px; }
+	.button{ font-size: 18px; padding: 20px;}
+
+	.service-section .service-img{ width: 48%; top: 2%; left: 6%; }
+	.service-section h2{ font-size: 40px; }
+	.service-section .title h6{ font-size: 18px; }
+	.service-table{ text-align: center; height: auto !important; }
+	.service-table p{ padding-right: 1%; }
+	.heading img{ margin-right: 0; }
+
+	.man-img{ display: none; }
+	.starting-section{ padding: 0 18px; }
+	.starting-table{  padding: 5%; gap: 3%; margin-bottom: 7%; }
+	.starting-section h2{ font-size: 40px; }
+
+	.process-section h2{ margin-top: 9%; }
+	.process-section{ padding: 0 18px; }
+	.process-tbl{ height: auto; }
+
+	.industry-tbl{ margin: 15% 10% 0; height: auto; padding-bottom: 5%; }
+
+	.question-section h2{ margin: 30px 0; }
+	.accordion-header p{ font-size: 18px; }
+
+	.footer-section{ text-align: center; padding-bottom: 18px;}
+	.footer-img{ position: static; width: 80%; }
+	.f-height{ flex-direction: column-reverse; }
+	.icon{ margin: 10% 0 10% 10%; }
+	.bg-five{ width: 100%; }
+	.phn-hide{ display: none; }
+	.desk-hide{ display: block; }
+	.bottom-logo .f-logo{ width: 85%; }
+	.offset-1 { margin-left: 6.333333%; }
+	.support p{ margin: 20px 0; color: #212529; }
+	.sup-phn{ margin: 20px 0; }
+	.bf-left{ margin: 15px 0; font-size: 16px; color: #fff; }
+	.bf-right{ font-size: 16px; }
+}
+
+@media (max-width: 375px){
+	.navbar-brand img{ width: 157%; }
+	.service-section .service-img{ top: 1%; left: 7%; }
+	.sup-num{ color: #000; border: 1px solid #000; }
+	.icon-content p{ font-size: 15px; }
+}
+
+
+@media (max-width: 320px){
+	.phn{ font-size: 16px; }
+	.service-section .service-img{ position: static; width: 92%;}
+	.hight{ flex-direction: column-reverse; }
+	.service-row{ text-align: center; }
+	.title{ text-align: center; }
+	.process-tbl{ margin-top: 45px; }
+	.num-border{ top: -10%; }
+	.mid{ top: -11.5%; }
+	.process-tbl h3{ margin-top: 7%; }
+	.footer-img{ width: 90%; }
+	.icon-content p{ font-size: 13px; }
+	.icon-content{ margin-bottom: 10px; }
+	.bottom-logo .f-logo{ width: 90%; }
+	.bf-left{ color: #000; }
+}
